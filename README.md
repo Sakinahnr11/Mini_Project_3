@@ -18,7 +18,7 @@ Pada proyek ini saya menggunakan python sebagai bahasa pemrograman; Jupyter seba
 
 ### Content
 ## Exploratory Data Analysis
-Pada bagian ini terdapat beberapa proses seperti penanganan missing value dengan menggunakan MICE with Light GBM dan penanganan duplikasi data, kemudian seleksi fitur menggunakan metode RFMLC (Recency, Frequency, Monetary, Loyality dan C), penanganan outlier dengan Manually Trimmed (menghapus nilai yang sangat jauh di tahun 1893-1900 pada kolom Year Birth, dan menghapus nilai yang sangat tinggi sebesar 666M pada kolom Income) fitur transformasi menggunakan Yeo Johnson Transformation dan Minmaxscaler.
+Pada bagian ini terdapat beberapa proses seperti penanganan missing value dengan menggunakan MICE with Light GBM dan penanganan duplikasi data, kemudian seleksi fitur menggunakan metode LRFM (Recency, Frequency, Monetary, Loyality), penanganan outlier dengan Manually Trimmed (menghapus nilai yang sangat jauh di tahun 1893-1900 pada kolom Year Birth, dan menghapus nilai yang sangat tinggi sebesar 666M pada kolom Income), fitur transformasi menggunakan Yeo Johnson Transformation, Normalization dengan Minmaxscaler dan Feature Scalling dengan StandardScaler.
 
 ## Data Modeling
 Menggunakan K-Means Clustering dengan metode cross-validation elbow pada skor inersia dan silhoutte.
