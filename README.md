@@ -17,7 +17,7 @@ Dataset berisi 2.240 baris data dan 30 fitur fitur perilaku pelanggan yang melak
 Pada proyek ini saya menggunakan python sebagai bahasa pemrograman; Jupyter sebagai notebook; pandas, numpy, sklearn dan python ke bagian preprocessing dan machine learning; kombinasi matplotlib dan seaborn library untuk menghasilkan visualisasi data.
 
 ### Content
-## Exploratory Data Analysis
+## Data Preprocessing
 Pada bagian ini terdapat beberapa proses seperti penanganan missing value dengan menggunakan MICE with Light GBM dan penanganan duplikasi data, kemudian seleksi fitur menggunakan metode LRFM (Recency, Frequency, Monetary, Loyality), penanganan outlier dengan Manually Trimmed (menghapus nilai yang sangat jauh di tahun 1893-1900 pada kolom Year Birth, dan menghapus nilai yang sangat tinggi sebesar 666M pada kolom Income), fitur transformasi menggunakan Yeo Johnson Transformation, Normalization dengan Minmaxscaler dan Feature Scalling dengan StandardScaler.
 
 ## Data Modeling
